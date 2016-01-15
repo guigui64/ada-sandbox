@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Hello\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Hello\test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Hello\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 23" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Hello\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 71" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Hello\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 74" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Hello\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 76" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Hello\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 77" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Hello\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7" >
+      <vfs_project>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\sandbox.gpr</vfs_project>
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\sandbox.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 1" >
+      <vfs_project>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\sandbox.gpr</vfs_project>
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\sandbox.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\genericstack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\genericstack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>U:\FormationAda\correction\pract_task\test_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\genericstack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>U:\FormationAda\correction\pract6\stack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project />
+      <vfs_file>U:\FormationAda\correction\pract6\stack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>U:\FormationAda\correction\pract6\stack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\genericstack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 1" >
+      <vfs_project>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\sandbox.gpr</vfs_project>
+      <vfs_file>C:\Documents and Settings\gcomte\My Documents\gps_workspace\Sandbox\sandbox.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 25" >
+      <vfs_project />
+      <vfs_file>U:\FormationAda\correction\pract6\stack.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>U:\FormationAda\correction\pract6\stack-pull.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
