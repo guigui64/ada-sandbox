@@ -1,25 +1,42 @@
 package body GenericStack is
 
+   ------------
+   -- Create --
+   ------------
+
+   function Create (E : in Elt) return Stack is
+   begin
+      return new Node'(Value => E, Next => null);
+   end Create;
+
    ---------
    -- Put --
    ---------
 
-   procedure Put (E : in Elt) is
+   procedure Put (S : in out Stack; E : in Elt) is
+      Previous : Stack;
    begin
-      --  Generated stub: replace with real body!
-      pragma Compile_Time_Warning (Standard.True, "Put unimplemented");
-      raise Program_Error with "Unimplemented procedure Put";
+      if S = null then
+         S := Create (E);
+      else
+         Previous := S;
+         S := Create (E);
+         S.Next := Previous;
+      end if;
    end Put;
 
    ---------
    -- Pop --
    ---------
 
-   function Pop return Elt is
+   function Pop (S : in out Stack) return Elt is
+      Pop : ELt;
    begin
-      --  Generated stub: replace with real body!
-      pragma Compile_Time_Warning (Standard.True, "Pop unimplemented");
-      raise Program_Error with "Unimplemented function Pop";
+      if S = null then
+         raise Empty_Stack;
+      end if;
+      Pop := S.Value;
+      S := S.Next;
       return Pop;
    end Pop;
 
