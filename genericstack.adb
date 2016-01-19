@@ -20,8 +20,8 @@ package body GenericStack is
          S := Create (E);
       else
          Previous := S;
-         S := Create (E);
-         S.Next := Previous;
+         S        := Create (E);
+         S.Next   := Previous;
       end if;
    end Put;
 
@@ -30,13 +30,13 @@ package body GenericStack is
    ---------
 
    function Pop (S : in out Stack) return Elt is
-      Pop : ELt;
+      Pop : Elt;
    begin
       if S = null then
          raise Empty_Stack;
       end if;
       Pop := S.Value;
-      S := S.Next;
+      S   := S.Next;
       return Pop;
    end Pop;
 

@@ -1,11 +1,12 @@
 project Sandbox is
 
+   for Main use ("sandbox.adb");
+
    package Linker is
       for Default_Switches ("ada") use ("-g");
    end Linker;
 
    package Pretty_Printer is
-      for Default_Switches ("ada") use ("-aU");
    end Pretty_Printer;
 
    package Builder is
@@ -15,8 +16,6 @@ project Sandbox is
    package Compiler is
       for Default_Switches ("ada") use ("-g");
    end Compiler;
-
-   for Main use ("sandbox.adb");
 
 end Sandbox;
 

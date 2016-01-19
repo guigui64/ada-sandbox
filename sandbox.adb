@@ -41,11 +41,11 @@ begin
          Put (The_Stack, 6);
          Put (The_Stack, 4);
          Interm := Pop (The_Stack);
-         Text_IO.Put_Line (Interm'IMG);
+         Text_IO.Put_Line (Interm'Img);
          Interm := Pop (The_Stack);
-         Text_IO.Put_Line (Interm'IMG);
+         Text_IO.Put_Line (Interm'Img);
          Interm := Pop (The_Stack);
-         Text_IO.Put_Line (Interm'IMG);
+         Text_IO.Put_Line (Interm'Img);
          Text_IO.Put_Line ("Unreachable ?");
 
       when C_SINGLETON =>
@@ -58,8 +58,8 @@ begin
          M   := (X => 8);
          D   := (M with 12);
          M.X := 25;
-         Text_IO.Put_Line ("M.X = " & M.X'IMG);
-         Text_IO.Put_Line ("D.X = " & D.X'IMG & " , D.Y = " & D.Y'IMG);
+         Text_IO.Put_Line ("M.X = " & M.X'Img);
+         Text_IO.Put_Line ("D.X = " & D.X'Img & " , D.Y = " & D.Y'Img);
 
    end case;
 
