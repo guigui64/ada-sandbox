@@ -8,4 +8,7 @@ package Objects is
       Y : Integer;
    end record;
 
+   type AbstractType is abstract tagged null record;
+   function ToString (A : in AbstractType) return String is abstract;
+
 end Objects;

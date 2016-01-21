@@ -3,7 +3,14 @@ with GenericStack;
 with Singleton;
 with Objects;
 
+with TestProc;
+
+with Ada.Numerics; use Ada.Numerics;
+
 procedure Sandbox is
+
+   G     : constant := 981;
+   TwoPi : constant := 2.0 * Pi;
 
    type Choice is (C_STACK, C_SINGLETON, C_OBJECTS);
    C : Choice;
@@ -19,11 +26,33 @@ procedure Sandbox is
    M : Objects.Mother;
    D : Objects.Daughter;
 
+   type NewType is new Objects.AbstractType with record
+      I : Integer;
+   end record;
+
+   function ToString (N : NewType) return String is
+   begin
+      return "NewType with I = " & N.I'Img;
+   end ToString;
+
+   type Cell;
+   type Cell_Ptr is access Cell;
+   type Cell is record
+      Next  : Cell_Ptr;
+      Value : Integer;
+   end record;
+
+--     L : Cell_Ptr;
+
 begin
 
+   Text_IO.Put("A");
+   Text_IO.Skip_Line(3);
+   Text_IO.Put_Line("B");
+
 --     C := C_STACK;
---     C := C_SINGLETON;
-   C := C_OBJECTS;
+   C := C_SINGLETON;
+--     C := C_OBJECTS;
 
    case C is
       when C_STACK =>
@@ -51,7 +80,7 @@ begin
       when C_SINGLETON =>
 
          Fs.Print;
-         Text_IO.Put_Line ("");
+         Text_IO.New_Line;
 
       when C_OBJECTS =>
 
@@ -63,9 +92,32 @@ begin
 
    end case;
 
+--     declare
+--        I : Integer := 7;
+--        J,K : Integer ;
+--     begin
+--        J := I+K;
+--        declare
+--           P : Integer := I;
+--           I : Integer := 8;
+--        begin
+--           K := P+I;
+--        end;
+--        Text_IO.Put(K'Img);
+--     end;
+
+--     L.Value := 1;
+
+   declare
+      I, J, K : Integer := 0;
+      B       : Boolean;
+   begin
+      B := J /= 0 and then I / J > K;
+   end;
+
 exception
 
-   when others =>
-      Text_IO.Put_Line ("Exception !!!");
+   when Empty_Stack =>
+      Text_IO.Put_Line ("Empty stack !");
 
 end Sandbox;
